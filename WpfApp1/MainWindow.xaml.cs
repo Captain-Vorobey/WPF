@@ -18,6 +18,13 @@ namespace WpfApp1
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            ToolTip toolTip = new ToolTip();
+            StackPanel toolTipPanel = new StackPanel();
+            toolTipPanel.Children.Add(new TextBlock { Text = "Информация о вашей строке", FontSize = 16 });
+            toolTipPanel.Children.Add(new TextBlock { Text = "Её изменения" });
+            toolTip.Content = toolTipPanel;
+            button1.ToolTip = toolTip;
+
             PasswordWindow passwordWindow = new PasswordWindow("hey guys", "guys", "girls");
 
             if (passwordWindow.ShowDialog() == true)
@@ -34,17 +41,16 @@ namespace WpfApp1
                 {
                     MessageBox.Show("Хз чё случилось"); ;
                 }
+        }
+
+        private void Login_Click1(object sender, RoutedEventArgs e)
+        {
             ToolTip toolTip = new ToolTip();
             StackPanel toolTipPanel = new StackPanel();
             toolTipPanel.Children.Add(new TextBlock { Text = "Информация о вашей строке", FontSize = 16 });
             toolTipPanel.Children.Add(new TextBlock { Text = "Её изменения" });
             toolTip.Content = toolTipPanel;
             button1.ToolTip = toolTip;
-            MessageBox.Show("Test");
-        }
-
-        private void Login_Click1(object sender, RoutedEventArgs e)
-        {
             Console.ReadLine();
             //int.Parse(Console.ReadLine());
             //Console.ReadLine();
@@ -54,21 +60,45 @@ namespace WpfApp1
 
         private void Login_Click2(object sender, RoutedEventArgs e)
         {
+            ToolTip toolTip = new ToolTip();
+            StackPanel toolTipPanel = new StackPanel();
+            toolTipPanel.Children.Add(new TextBlock { Text = "Информация о вашей строке", FontSize = 16 });
+            toolTipPanel.Children.Add(new TextBlock { Text = "Её изменения" });
+            toolTip.Content = toolTipPanel;
+            button2.ToolTip = toolTip;
             MessageBox.Show("Test");
         }
 
         private void Login_Click3(object sender, RoutedEventArgs e)
         {
+            ToolTip toolTip = new ToolTip();
+            StackPanel toolTipPanel = new StackPanel();
+            toolTipPanel.Children.Add(new TextBlock { Text = "Информация о вашей графике", FontSize = 16 });
+            toolTipPanel.Children.Add(new TextBlock { Text = "Её изменения" });
+            toolTip.Content = toolTipPanel;
+            button3.ToolTip = toolTip;
             MessageBox.Show("Graphic");
         }
 
         private void Login_Click4(object sender, RoutedEventArgs e)
         {
+            ToolTip toolTip = new ToolTip();
+            StackPanel toolTipPanel = new StackPanel();
+            toolTipPanel.Children.Add(new TextBlock { Text = "Информация о вашей бд", FontSize = 16 });
+            toolTipPanel.Children.Add(new TextBlock { Text = "Её изменения" });
+            toolTip.Content = toolTipPanel;
+            button4.ToolTip = toolTip;
             MessageBox.Show("BD");
         }
 
         private void Login_Click5(object sender, RoutedEventArgs e)
         {
+            ToolTip toolTip = new ToolTip();
+            StackPanel toolTipPanel = new StackPanel();
+            toolTipPanel.Children.Add(new TextBlock { Text = "Информация об объекте", FontSize = 16 });
+            toolTipPanel.Children.Add(new TextBlock { Text = "Его поля: имя, тип, время выхода" });
+            toolTip.Content = toolTipPanel;
+            button5.ToolTip = toolTip;
             MessageBox.Show("Created obj");
         }
     }
