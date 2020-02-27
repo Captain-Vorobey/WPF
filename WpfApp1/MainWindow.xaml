@@ -11,7 +11,7 @@
             <Button Background="Blue" MinWidth="30" Name="button" Content="Авторизация" Click="Login_Click" />
             <Button Background="Blue" MinWidth="100" Name="button1" Content="Создание объекта" Click="Login_Click1"/>
             <Button Background="White" MinWidth="100" Name="button2" Content="Тест" Click="Login_Click2"/>
-            <Button Background="Red" MinWidth="100" Name="button3" Content="Графика" Click="Login_Click3"/>
+            <Button Background="Red" MinWidth="100" Name="button3" Content="Графика" Click="Button_Click"/>
             <Button Background="Black" MinWidth="100" Name="button4" Content="База данных" Click="Login_Click4"/>
             <Button Background="Brown" MinWidth="100" Name="button5" Content="Статьи" Click="Login_Click5"/>
         </StackPanel>

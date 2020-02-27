@@ -1,11 +1,15 @@
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateObject.g.cs
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\Graphyc.g.cs
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\PasswordWindow.g.cs
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateObject.baml
+C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\Graphyc.baml
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\PasswordWindow.baml
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
@@ -14,7 +18,3 @@ C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateRes
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateObject.g.cs
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateObject.baml
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\Computer.g.cs
-C:\Users\vorob\source\repos\WpfApp1\WpfApp1\obj\Debug\Computer.baml

@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Воробьёв Е. С., №6, Т-795" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="500" Name="mainWindow">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ListBox x:Name="phonesList" />
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Row="0" Grid.Column="0" Name="nameTextBox" Width="190" />
+            <TextBox Grid.Row="1" Grid.Column="0" Name="priceTextBox" Width="190" />
+            <TextBox Grid.Row="2" Grid.Column="0" Name="manufacturerTextBox" Width="190" />
+            <Button Grid.Row="2" Grid.Column="1" Content="Сохранить" MaxWidth="70" Margin="10 0 0 0" Click="Accept_Click" />
+        </Grid>
     </Grid>
 </Window>

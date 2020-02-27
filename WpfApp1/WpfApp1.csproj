@@ -55,21 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Computer.xaml.cs">
-      <DependentUpon>Computer.xaml</DependentUpon>
-    </Compile>
     <Compile Include="CreateObject.xaml.cs">
       <DependentUpon>CreateObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graphyc.xaml.cs">
+      <DependentUpon>Graphyc.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyString.cs" />
     <Compile Include="PasswordWindow.xaml.cs">
       <DependentUpon>PasswordWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="Computer.xaml">
+    <Page Include="CreateObject.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CreateObject.xaml">
+    <Page Include="Graphyc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
